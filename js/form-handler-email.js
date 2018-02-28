@@ -13,6 +13,7 @@ function capture(){
   //email input 
   var email = document.userInfo.email.value;
   console.log(email);
+  console.log("Thanks for giving us your Contact Info, " + userName + "!");
   //stops form submit
   event.preventDefault();
   console.log("form submitted");
