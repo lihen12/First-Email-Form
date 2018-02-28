@@ -5,7 +5,7 @@ function capture(){
   var userName = document.userInfo.name.value;
   
   //name logic
-  console.log("Welcome, " + name + "!");
+  console.log("Welcome, " + userName + "!");
   
   //sex input gender
   var gender = document.userInfo.gender.value;
