@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>E-Mail Form Handler</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1>Contact Information</h1>
+    </header>
+    <!-- Form that captures user name, sex, email using onsubmit command of function "capture() -->
+    <form name="userInfo" onsubmit="capture();">
+      <label>
+        What's your name?
+        <input type="text" name="name">
+      </label>
+    
+      <label>
+        What is your sex?
+        <input type="radio" name="gender" value="male" checked>Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other
+      </label>
+      
+      <label>
+        E-Mail:
+        <input type="email" name="email">
+      </label>
+    
+      <input type="submit" value="submit">
+    </form>
+    
+    <!-- script of form handler -->
+    <script src="js/form-handler-email.js"></script>
+  </body>
+</html>
